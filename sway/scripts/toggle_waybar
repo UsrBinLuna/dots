@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if [ -z $(pidof waybar) ] 
+then
+  waybar & 
+else
+  killall waybar
+fi

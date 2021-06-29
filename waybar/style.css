@@ -1,0 +1,29 @@
+* {
+  padding: 0 7px;
+  font-family: "JetBrainsMono Nerd Font Mono";
+}
+
+/* workspaces */
+#workspaces {
+  background: #282a36;
+  margin: 0 2px;
+  border-top: 2px solid transparent;
+  border-bottom: 2px solid transparent;
+  font-size: 16px
+}
+#workspaces button {
+  background: #282a36;
+  color: #f8f8f2;
+  font-size: 16px
+}
+#workspaces button.focused {
+  background: #6272a4;
+  color: #282a36;
+  font-size: 16px;
+}
+
+#window, window#waybar, #pulseaudio, #backlight, #network, #memory, #battery, #clock {
+  background: #282a36;
+  color: #f8f8f2;
+  font-size: 13px;
+}

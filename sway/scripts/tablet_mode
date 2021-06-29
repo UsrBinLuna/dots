@@ -1,0 +1,4 @@
+#!/bin/bash
+killall waybar
+cp ~/.config/waybar/tablet ~/.config/waybar/config
+exec waybar & disown
