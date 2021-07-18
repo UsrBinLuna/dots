@@ -9,7 +9,6 @@ sway, swaylock, waybar, rofi, alacritty
 ### dependencies
 on arch linux
 - `sudo pacman -S sway swaylock waybar rofi alacritty openbox neofetch`
-- ```yay -S \ #(or the aur helper of your choice)
-polybar-git picom-ibhagwan-git```
+- `yay -S polybar-git picom-ibhagwan-git`
 ### install da dots
 `cp -r ./* ~/.config/`
