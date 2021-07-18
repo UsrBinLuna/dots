@@ -10,7 +10,7 @@
   text:       #f8f8f2;
   text-alt:   #D5D5D5;
 
-  background-color: #44475a;
+  background-color: #141c21;
 
   font: "JetBrainsMono Nerd Font Mono 13";
   text-color: @text;
@@ -26,7 +26,7 @@ mainbox {
   padding: 1em;
   border: 5px;
   border-radius: 0px;
-  border-color: @blue;
+  border-color: #6e2286;
 }
 
 inputbar {
