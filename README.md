@@ -4,7 +4,7 @@ what else do i put here
 
 
 ## requirements
-sway, swaylock, waybar, rofi, alacritty, openbox, zsh, [ox-my-zsh](https://ohmyz.sh/), [picom (ibhagwan's fork)](github.com/ibhagwan/picom/), [polybar-git (master branch)](https://github.com/polybar/polybar/tree/master)
+sway, swaylock, waybar, rofi, alacritty, openbox, zsh, [oh-my-zsh](https://ohmyz.sh/), [picom (ibhagwan's fork)](github.com/ibhagwan/picom/), [polybar-git (master branch)](https://github.com/polybar/polybar/tree/master)
 ## installation
 ### dependencies
 on arch linux
