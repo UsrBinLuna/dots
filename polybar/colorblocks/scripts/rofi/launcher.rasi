@@ -8,8 +8,8 @@
  */
 
 configuration {
-	font:							"Iosevka Nerd Font 10";
-    show-icons:                     true;
+	font:							"JetBrainsMono Nerd Font Mono 10";
+    show-icons:                     false;
 	icon-theme: 					"Papirus";
     display-drun: 					"";
     drun-display-format:            "{name}";
@@ -28,7 +28,7 @@ window {
 	border:							0px;
 	border-color:					@bg1;
     border-radius:                  0px;
-	width:							700px;
+	width:							450px;
     location:                       center;
     x-offset:                       0;
     y-offset:                       0;
@@ -39,7 +39,7 @@ prompt {
 	padding: 						12px 15px 12px 15px;
 	background-color: 				@bg1;
 	text-color: 					@fga;
-	font:							"Iosevka Nerd Font 12";
+	font:							"JetBrainsMono Nerd Font Mono 12";
 }
 
 entry {
@@ -69,7 +69,7 @@ inputbar {
 listview {
     background-color:               @al;
     padding:                        10px 10px 10px 10px;
-    columns:                        3;
+    columns:                        1;
     lines:                          8;
     spacing:                        5px;
     cycle:                          true;

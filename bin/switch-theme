@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+
+case $1 in
+  mountain|1|--mountain|-1)
+    cp ~/.config/alacritty/alacritty.yml-mountain ~/.config/alacritty/alacritty.yml
+    ~/.config/polybar/colorblocks/scripts/colors-dark.sh --gray
+    feh --bg-fill ~/Downloads/cyberpunk.png
+    cp ~/.config/nvim/lua/theme.lua-mountain ~/.config/nvim/lua/theme.lua
+    cp ~/.config/beautifuldiscord/mountain.css ~/.config/beautifuldiscord/style.css
+    killall conky
+    conky &!
+    ;;
+  custom|2|--custom|-2)
+    cp ~/.config/alacritty/alacritty.yml-custom ~/.config/alacritty/alacritty.yml
+    ~/.config/polybar/colorblocks/scripts/colors-dark.sh --blue-gray
+    feh --bg-fill ~/Files/houses2.jpg
+    cp ~/.config/nvim/lua/theme.lua-onedark ~/.config/nvim/lua/theme.lua
+    cp ~/.config/beautifuldiscord/custom.css ~/.config/beautifuldiscord/style.css
+    killall conky
+    conky &!
+esac

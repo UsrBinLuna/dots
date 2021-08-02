@@ -21,5 +21,7 @@ setxkbmap -layout latam &
 xrandr --newmode "1920x1080_60.00"  173.00  1920 2048 2248 2576  1080 1083 1088 1120 -hsync +vsync
 xrandr --addmode eDP-1 1920x1080_60.00
 xrandr --output eDP-1 --mode 1920x1080_60.00
-feh --bg-tile ~/Downloads/tile.png
-sh ~/.config/polybar/colorblocks/launch.sh
+feh --bg-fill ~/Downloads/cyberpunk.png
+sh ~/.config/polybar/colorblocks/launch.sh &
+#bash ~/dev/scripts/start-mpd.sh
+conky &!

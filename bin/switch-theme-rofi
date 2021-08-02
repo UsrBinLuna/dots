@@ -1,0 +1,8 @@
+MENU="$(rofi -no-config -no-lazy-grab -sep "|" -dmenu -i -p '' \
+-theme ~/.config/polybar/colorblocks/scripts/rofi/styles.rasi \
+<<< "♥ mountain|♥ custom|")"
+            case "$MENU" in
+				## Light Colors
+				*mountain) ~/bin/switch-theme --mountain ;;
+				*custom) ~/bin/switch-theme --custom ;;
+            esac
