@@ -24,4 +24,6 @@ fi
 cp -r bin ~
 cp -r scripts/* ~/dev/scripts
 
+cp .cwmrc ~
+
 echo "Scripts are located at ~/bin and ~/dev/scripts, please do not delete unless you edit the config"

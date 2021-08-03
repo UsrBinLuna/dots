@@ -8,8 +8,9 @@ sway, swaylock, waybar, rofi, alacritty, openbox, zsh, [oh-my-zsh](https://ohmyz
 ## installation
 ### dependencies
 on arch linux
-- `sudo pacman -S sway swaylock waybar rofi alacritty openbox neofetch`
-- `yay -S polybar-git picom-ibhagwan-git`
+- `sudo pacman -S sway swaylock waybar rofi alacritty openbox neofetch wezterm`
+- `yay -S polybar-git picom-ibhagwan-git cwm-git`
+- [polybar-themes](https://github.com/adi1090x/polybar-themes/) installed at ~/.config/polybar
 ### install da dots
 - `chmod +x install.sh`
 - `./install.sh`

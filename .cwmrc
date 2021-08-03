@@ -1,0 +1,48 @@
+##########
+# .cwmrc #
+##########
+
+# got practically all of it from https://github.com/voidz7/dotfiles/blob/master/.cwmrc lol
+
+
+## settings
+borderwidth 2
+snapdist 10
+gap 5 5 5 5
+sticky yes
+snapdist 4
+unbind-key all
+moveamount 10
+fontname "JetBrainsMono Nerd Font Mono:style=Regular:size=12"
+
+# exec
+bind-key 4-Return "wezterm"
+bind-key 4-u "bash -c ~/dev/scripts/screenshot.sh"
+
+# appmenu
+bind-key 4-c "rofi -no-config -no-lazy-grab -show drun -modi drun -theme ~/.config/polybar/colorblocks/scripts/rofi/launcher.rasi"
+
+# volume and brightness
+bind-key XF86MonBrightnessUp "/bin/xbacklight -inc 10"
+bind-key XF86MonBrightnessDown "/bin/xbacklight -dec 10"
+
+bind-key XF86AudioLowerVolume "/usr/bin/amixer -D pulse sset Master -5%"
+bind-key XF86AudioRaiseVolume "/usr/bin/amixer -D pulse sset Master +5%"
+bind-key XF86AudioMute "/usr/bin/amixer -D pulse sset Master toggle"
+
+# wm controls
+bind-key 4S-r restart
+
+# mouse
+unbind-mouse all
+
+# resize with super+right click, move with super+left click
+bind-mouse 4-2 window-resize
+bind-mouse 4-1 window-move
+
+
+# colors
+color font    "#f0f0f0"
+color selfont "#0f0f0f"
+color menufg  "#f0f0f0"
+color menubg  "#0f0f0f"
