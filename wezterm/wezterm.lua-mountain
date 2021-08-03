@@ -20,33 +20,33 @@ return {
 
   colors = {
     foreground = "#f0f0f0",
-    background = "#162027",
+    background = "#0f0f0f",
     cursor_bg = "#f0f0f0",
     cursor_fg = "#f0f0f0",
 
     ansi = { 
-             "#000000",
-             "#607d8b",
-             "#b0bec5",
-             "#455a64",
-             "#78909c",
-             "#546e7a",
-             "#b0bec5",
-             "#bfbfbf",
+             "#262626",
+             "#ac8a8c",
+             "#8aac8b",
+             "#aca98a",
+             "#8f8aac",
+             "#ac8aac",
+             "#8aabac",
+             "#e7e7e7",
            },
     brights = { 
-             "#4d4d4d",
-             "#ff6e67",
-             "#5af78e",
-             "#f4f99d",
-             "#caa9fa",
-             "#ff92d0",
-             "#9aedfe",
-             "#e6e6e6",
+             "#262626",
+             "#ac8a8c",
+             "#8aac8b",
+             "#aca98a",
+             "#8f8aac",
+             "#ac8aac",
+             "#8aabac",
+             "#e7e7e7",
            },
 
     tab_bar = {
-      background = "#162027",
+      background = "#0f0f0f",
 
       active_tab = {
         bg_color = "#0f0f0f",

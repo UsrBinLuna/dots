@@ -49,19 +49,19 @@ return {
       background = "#162027",
 
       active_tab = {
-        bg_color = "#0f0f0f",
+        bg_color = "#162027",
         fg_color = "#f0f0f0",
         intensity = "Bold",
       },
 
       inactive_tab = {
-        bg_color = "#0f0f0f",
+        bg_color = "#162027",
         fg_color = "#f0f0f0",
         intensity = "Normal",
       },
 
       inactive_tab_hover = {
-        bg_color = "#0f0f0f",
+        bg_color = "#162027",
         fg_color = "#f0f0f0",
         underline = "Single",
       }

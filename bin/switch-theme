@@ -7,6 +7,7 @@ case $1 in
     feh --bg-fill ~/Downloads/cyberpunk.png
     cp ~/.config/nvim/lua/theme.lua-mountain ~/.config/nvim/lua/theme.lua
     cp ~/.config/beautifuldiscord/mountain.css ~/.config/beautifuldiscord/style.css
+    cp ~/.config/wezterm/wezterm.lua-mountain ~/.config/wezterm/wezterm.lua
     killall conky
     conky &!
     ;;
@@ -16,6 +17,7 @@ case $1 in
     feh --bg-fill ~/Files/houses2.jpg
     cp ~/.config/nvim/lua/theme.lua-onedark ~/.config/nvim/lua/theme.lua
     cp ~/.config/beautifuldiscord/custom.css ~/.config/beautifuldiscord/style.css
+    cp ~/.config/wezterm/wezterm.lua-custom ~/.config/wezterm/wezterm.lua
     killall conky
     conky &!
 esac
